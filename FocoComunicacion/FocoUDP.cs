@@ -58,7 +58,7 @@ namespace FocoComunicacion
 
             if (IpRem.Length == 0)
             {
-                //conectar a recepcion general remota
+                //Conectar a recepcion general remota
                 epRem = new IPEndPoint(IPAddress.Any, PuertoRem);
                 //sck.Connect(epRem);
             }
