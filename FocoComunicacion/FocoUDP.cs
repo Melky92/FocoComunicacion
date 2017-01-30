@@ -29,7 +29,7 @@ namespace FocoComunicacion
                 }
             }
             return "";
-            //throw new Exception("Local IP Address Not Found ");
+            //throw new Exception("Local IP Address Not Found");
         }
 
         public FocoUDP(String ip_local = "", int puerto_local = 8888, String ip_remota = "", int puerto_remoto = 0)
