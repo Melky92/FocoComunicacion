@@ -52,7 +52,7 @@ namespace FocoComunicacion
         }
         public void Inicializar(bool Recibir = true)
         {
-            //unir los sockets
+            //Unir los sockets
             epLocal = new IPEndPoint(IPAddress.Parse(IpLoc), PuertoLoc);
             sck.Bind(epLocal);
 
