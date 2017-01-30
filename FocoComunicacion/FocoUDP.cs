@@ -64,7 +64,7 @@ namespace FocoComunicacion
             }
             else
             {
-                //conectar a la ip remota
+                //Conectar a la ip remota
                 epRem = new IPEndPoint(IPAddress.Parse(IpRem), PuertoRem);
                 sck.Connect(epRem);
             }
