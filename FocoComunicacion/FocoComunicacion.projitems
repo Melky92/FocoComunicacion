@@ -9,6 +9,7 @@
     <Import_RootNamespace>FocoComunicacion</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)FocoTCP.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)FocoUDP.cs" />
   </ItemGroup>
 </Project>
